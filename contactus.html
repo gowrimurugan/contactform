@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactus</title>
+    <link rel="stylesheet" href="contactus.css">
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <div class="wrapper">
+                <header>
+                    <div class="header-wrapper">
+                        <span class="logo-image">
+                            <img src="menulogo.png" width="70px" height="70px" alt="">
+                        </span>
+                        <div class="logo"><b>Business</b></div>
+                        <nav class="nav-items">
+                            <a class="nav-items1">Home</a>
+                            <a class="nav-items2">About Us</a>
+                            <a class="nav-items3">Services</a>
+                            <a class="nav-items4">Our Work</a>
+                            <a class="nav-items5">Contact Us</a>
+                        </nav>
+                    </div>
+
+                </header>
+
+                <div class="contact-us">
+                    <div class="contact-us-wrapper">
+                        <div class="contact-header">
+                            <h3>Contact us</h3>
+                            <p>A quis luctus fermentum, turpis mi volutpat justo, eu vilutpat enim diam eget metus.</p>
+                            <p>Maecenas ornare tortor</p>
+                        </div>
+                        <div class="content">
+                            <div class="content-left">
+                                <div class="address">
+                                    <h4>Address</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero illum debitis
+                                        veritatis provident voluptatibus facilis.
+                                    </p>
+                                    <h5>1235, New Park Road</h5>
+                                    <h5>First Street, NEWYORK, USA.</h5>
+                                    <div class="num">
+                                        <div>
+                                            <h6>Freephone</h6>
+                                            <h6>Telephone</h6>
+                                            <h6>Fax</h6>
+                                        </div>
+                                        <div class="num1">
+                                            <h6> +1800 235 6321 </h6>
+                                            <h6> +1800 235 6200 </h6>
+                                            <h6> +1800 215 2000 </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-right">
+                                <h5>Contact Form</h5>
+                                <div class="inputfield">
+                                    <div class="labels">
+                                        <p>Name <span style="color: red;font-size:20px">*</span></p>
+                                        <p>Email <span style="color: red;font-size:20px">*</span></p>
+                                        <p>Phone <span style="color: red;font-size:20px">*</span></p>
+                                        <p>Subject <span class="star" style="color: red;font-size:20px">*</span></p>
+                                        <p>Message <span class="star" style="color: red;font-size:20px">*</span></p>
+                                    </div>
+                                    <form class="form">
+                                        <div class="box">
+                                            <input type="text" id="name" onblur="nameHandler()">
+                                            <span>Invalid Name*</span>
+                                        </div>
+                                        <div class="box">
+                                            <input type="email" id="mail" onblur="mailHandler()">
+                                            <span>Invalid Emailid*</span>
+                                        </div>
+                                        <div class="box">
+                                            <input type="number" id="phone" onblur="numHandler()">
+                                            <span>Invalid Phone number*</span>
+                                        </div>
+                                        <div class="box">
+                                            <input type="text" id="subject" onblur="subHandler()">
+                                            <span>Invalid Subject*</span>
+                                        </div>
+                                        <div class="box">
+                                            <textarea name="" id="textarea" cols="10" rows="5" onblur="textHandler()"></textarea>
+                                            <span>Invalid Message*</span>
+                                        </div>
+                                        <button id="btn">Send Message</button>
+                                    </form>
+                                </div>
+                                <div class="info">
+                                    <h5>Please Enter the Required Field</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <footer>
+                    <div class="footer-wrapper">
+                        <div class="footer-hd">
+                            <h5>SAMPLE PAGE</h5>
+                            <p>About us</p>
+                            <p>Services</p>
+                            <p>Our Work</p>
+                            <p>Blog</p>
+                        </div>
+                        <div class="footer-hd">
+                            <h5>OUR SERVICES</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta similique repudiandae
+                                atque modi nisi.</p>
+                        </div>
+                        <div class="footer-hd">
+                            <h5>OUR OFFERS</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit porro id ipsa soluta dicta
+                            </p>
+                        </div>
+                        <div class="footer-hd">
+                            <h5>CONTACT US</h5>
+                            <p>1235, New Park Road
+                                First Street, NEWYORK
+                                USA.<br />
+                                TELEPHONE:+1800 2000
+                                FAX:+ 1800 215 2000
+                                EMAIL: Info@business.com
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer-end">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reculpa omnis fugit iure, molestiae
+                            aliquam!</p>
+                        <p>Lorem ipsum explicabo modi magnam id possimus tempora aut! Saepe.</p>
+                        <h4>Website Designed With TechFetch Training Team</h4>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="./contactus.js"></script>
+</body>
+
+</html>
